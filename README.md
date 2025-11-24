@@ -1,4 +1,4 @@
-<div id="top"><div align="center"><img src="logo.png" width="30%" alt="Project Logo"/># <code>❯ AI-POWERED SELF-STUDY ASSISTANT</code><em>A backend system designed to help students learn smarter using subjects, FAQs, and MCQ-based self-assessment.</em>
+<div id="top"><div align="center"><img src="logo.png" width="10%" alt="Project Logo"/># <code>❯ AI-POWERED SELF-STUDY ASSISTANT</code><em>A backend system designed to help students learn smarter using subjects, FAQs, and MCQ-based self-assessment.</em>
 
 Built with: <b>Java • MySQL • JDBC</b></div><br>
 
