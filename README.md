@@ -1,9 +1,42 @@
 <div id="top"><div align="center"><img src="readmeai/assets/logos/purple.svg" width="30%" alt="Project Logo"/># <code>❯ AI-POWERED SELF-STUDY ASSISTANT</code><em>A backend system designed to help students learn smarter using subjects, FAQs, and MCQ-based self-assessment.</em>
-Built with: <b>Java • MySQL • JDBC</b></div>
----## 📌 Table of Contents- Overview- Features- Project Structure  - Project Index- Getting Started  - Prerequisites  - Installation  - Usage- Roadmap- License- Acknowledgments
----## 🔍 OverviewThe AI-Powered Self-Study Assistant is a Java backend application that helps students structure and improve their learning by storing:- Student profiles- Subjects they are studying- Concept explanations in FAQ format- Quiz questions for self-practiceA console runner (DemoApp) tests the entire backend using JDBC, ensuring correct insert & fetch operations through Data Access Objects (DAO).This is the backend foundation. A web interface and chatbot recommendation system will be built over this later.
----## ✨ FeaturesModuleDescriptionUserMaintains student informationSubjectStores subject name and codeFAQ Knowledge BaseExplanation responses + keywords for future chatbotQuiz QuestionsMCQs with four options + correct answerJDBC LayerConnects with MySQL using db.propertiesDAO LayerInsert + fetch functionality for all modulesDemoAppExecutes a complete backend end-to-end test
----## 🧱 Project Structure```sh└── /├── sql│   └── schema.sql└── src└── main├── java│   └── com/selfstudyassistant│       ├── app│       ├── dao│       ├── model│       └── util└── resources
+
+Built with: <b>Java • MySQL • JDBC</b></div><br>
+
+---## 📌 Table of Contents- [Overview](#overview)- [Features](#features)- [Project Structure](#project-structure)  - [Project Index](#project-index)- [Getting Started](#getting-started)  - [Prerequisites](#prerequisites)  - [Installation](#installation)  - [Usage](#usage)- [Roadmap](#roadmap)- [License](#license)- [Acknowledgments](#acknowledgments)
+
+---## 🔍 Overview
+
+The **AI-Powered Self-Study Assistant** is a Java backend application that helps students structure and improve their learning by storing:- Student profiles- Subjects they are studying- Concept explanations in FAQ format- Quiz questions for self-practice
+
+A console runner (`DemoApp`) tests the entire backend using JDBC, ensuring correct insert & fetch operations through Data Access Objects (DAO).
+
+This is the **backend foundation**. A web interface and chatbot recommendation system will be built over this later.
+
+---## ✨ Features
+
+| Module | Description |
+|--------|-------------|
+| User | Maintains student information |
+| Subject | Stores subject name and code |
+| FAQ Knowledge Base | Explanation responses + keywords for future chatbot |
+| Quiz Questions | MCQs with four options + correct answer |
+| JDBC Layer | Connects with MySQL using `db.properties` |
+| DAO Layer | Insert + fetch functionality for all modules |
+| DemoApp | Executes a complete backend end-to-end test |
+
+---## 🧱 Project Structure```sh
+└── /
+    ├── sql
+    │   └── schema.sql
+    └── src
+        └── main
+            ├── java
+            │   └── com/selfstudyassistant
+            │       ├── app
+            │       ├── dao
+            │       ├── model
+            │       └── util
+            └── resources
 
 📁 Project Index (Click to Expand)
 
