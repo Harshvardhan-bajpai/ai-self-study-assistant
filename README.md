@@ -39,7 +39,7 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
             │       ├── model
             │       └── util
             └── resources
-
+```
 📁 Project Index (Click to Expand)
 
 <details open>
