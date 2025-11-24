@@ -24,7 +24,9 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
 | DAO Layer | Insert + fetch functionality for all modules |
 | DemoApp | Executes a complete backend end-to-end test |
 
----## 🧱 Project Structure
+## 🧱 Project Structure
+
+```sh
 └── /
     ├── sql
     │   └── schema.sql
