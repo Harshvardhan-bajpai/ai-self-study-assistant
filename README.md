@@ -1,365 +1,122 @@
-<div id="top">
-
-<!-- HEADER STYLE: CLASSIC -->
-<div align="center">
-
-<img src="readmeai/assets/logos/purple.svg" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
-
-# <code>❯ REPLACE-ME</code>
-
-<em></em>
-
-<!-- BADGES -->
-<!-- local repository, no metadata badges. -->
-
-<em>Built with the tools and technologies:</em>
-
-
-</div>
-<br>
-
----
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-    - [Project Index](#project-index)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Testing](#testing)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
-
-## Overview
-
-
-
----
-
-## Features
-
-<code>❯ REPLACE-ME</code>
-
----
-
-## Project Structure
-
-```sh
-└── /
-    ├── sql
-    │   └── schema.sql
-    └── src
-        └── main
-```
-
-### Project Index
+<div id="top"><div align="center"><img src="readmeai/assets/logos/purple.svg" width="30%" alt="Project Logo"/># <code>❯ AI-POWERED SELF-STUDY ASSISTANT</code><em>A backend system designed to help students learn smarter using subjects, FAQs, and MCQ-based self-assessment.</em>Built with: <b>Java • MySQL • JDBC</b></div>---## 📌 Table of Contents- Overview- Features- Project Structure  - Project Index- Getting Started  - Prerequisites  - Installation  - Usage- Roadmap- License- Acknowledgments---## 🔍 OverviewThe AI-Powered Self-Study Assistant is a Java backend application that helps students structure and improve their learning by storing:- Student profiles- Subjects they are studying- Concept explanations in FAQ format- Quiz questions for self-practiceA console runner (DemoApp) tests the entire backend using JDBC, ensuring correct insert & fetch operations through Data Access Objects (DAO).This is the backend foundation. A web interface and chatbot recommendation system will be built over this later.---## ✨ FeaturesModuleDescriptionUserMaintains student informationSubjectStores subject name and codeFAQ Knowledge BaseExplanation responses + keywords for future chatbotQuiz QuestionsMCQs with four options + correct answerJDBC LayerConnects with MySQL using db.propertiesDAO LayerInsert + fetch functionality for all modulesDemoAppExecutes a complete backend end-to-end test---## 🧱 Project Structure```sh└── /├── sql│   └── schema.sql└── src└── main├── java│   └── com/selfstudyassistant│       ├── app│       ├── dao│       ├── model│       └── util└── resources📁 Project Index (Click to Expand)
 
 <details open>
-	<summary><b><code>/</code></b></summary>
-	<!-- __root__ Submodule -->
-	<details>
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ __root__</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-			</table>
-		</blockquote>
-	</details>
-	<!-- sql Submodule -->
-	<details>
-		<summary><b>sql</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ sql</b></code>
-			<table style='width: 100%; border-collapse: collapse;'>
-			<thead>
-				<tr style='background-color: #f8f9fa;'>
-					<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-					<th style='text-align: left; padding: 8px;'>Summary</th>
-				</tr>
-			</thead>
-				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='/sql/schema.sql'>schema.sql</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-				</tr>
-			</table>
-		</blockquote>
-	</details>
-	<!-- src Submodule -->
-	<details>
-		<summary><b>src</b></summary>
-		<blockquote>
-			<div class='directory-path' style='padding: 8px 0; color: #666;'>
-				<code><b>⦿ src</b></code>
-			<!-- main Submodule -->
-			<details>
-				<summary><b>main</b></summary>
-				<blockquote>
-					<div class='directory-path' style='padding: 8px 0; color: #666;'>
-						<code><b>⦿ src.main</b></code>
-					<!-- java Submodule -->
-					<details>
-						<summary><b>java</b></summary>
-						<blockquote>
-							<div class='directory-path' style='padding: 8px 0; color: #666;'>
-								<code><b>⦿ src.main.java</b></code>
-							<!-- com Submodule -->
-							<details>
-								<summary><b>com</b></summary>
-								<blockquote>
-									<div class='directory-path' style='padding: 8px 0; color: #666;'>
-										<code><b>⦿ src.main.java.com</b></code>
-									<!-- selfstudyassistant Submodule -->
-									<details>
-										<summary><b>selfstudyassistant</b></summary>
-										<blockquote>
-											<div class='directory-path' style='padding: 8px 0; color: #666;'>
-												<code><b>⦿ src.main.java.com.selfstudyassistant</b></code>
-											<!-- app Submodule -->
-											<details>
-												<summary><b>app</b></summary>
-												<blockquote>
-													<div class='directory-path' style='padding: 8px 0; color: #666;'>
-														<code><b>⦿ src.main.java.com.selfstudyassistant.app</b></code>
-													<table style='width: 100%; border-collapse: collapse;'>
-													<thead>
-														<tr style='background-color: #f8f9fa;'>
-															<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-															<th style='text-align: left; padding: 8px;'>Summary</th>
-														</tr>
-													</thead>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/app/DemoApp.java'>DemoApp.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-													</table>
-												</blockquote>
-											</details>
-											<!-- doa Submodule -->
-											<details>
-												<summary><b>doa</b></summary>
-												<blockquote>
-													<div class='directory-path' style='padding: 8px 0; color: #666;'>
-														<code><b>⦿ src.main.java.com.selfstudyassistant.doa</b></code>
-													<table style='width: 100%; border-collapse: collapse;'>
-													<thead>
-														<tr style='background-color: #f8f9fa;'>
-															<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-															<th style='text-align: left; padding: 8px;'>Summary</th>
-														</tr>
-													</thead>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/doa/FaqDao.java'>FaqDao.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/doa/QuizQuestionDao.java'>QuizQuestionDao.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/doa/SubjectDao.java'>SubjectDao.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/doa/UserDao.java'>UserDao.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-													</table>
-												</blockquote>
-											</details>
-											<!-- model Submodule -->
-											<details>
-												<summary><b>model</b></summary>
-												<blockquote>
-													<div class='directory-path' style='padding: 8px 0; color: #666;'>
-														<code><b>⦿ src.main.java.com.selfstudyassistant.model</b></code>
-													<table style='width: 100%; border-collapse: collapse;'>
-													<thead>
-														<tr style='background-color: #f8f9fa;'>
-															<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-															<th style='text-align: left; padding: 8px;'>Summary</th>
-														</tr>
-													</thead>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/model/Faq.java'>Faq.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/model/QuizQuestion.java'>QuizQuestion.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/model/Subject.java'>Subject.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/model/User.java'>User.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-													</table>
-												</blockquote>
-											</details>
-											<!-- util Submodule -->
-											<details>
-												<summary><b>util</b></summary>
-												<blockquote>
-													<div class='directory-path' style='padding: 8px 0; color: #666;'>
-														<code><b>⦿ src.main.java.com.selfstudyassistant.util</b></code>
-													<table style='width: 100%; border-collapse: collapse;'>
-													<thead>
-														<tr style='background-color: #f8f9fa;'>
-															<th style='width: 30%; text-align: left; padding: 8px;'>File Name</th>
-															<th style='text-align: left; padding: 8px;'>Summary</th>
-														</tr>
-													</thead>
-														<tr style='border-bottom: 1px solid #eee;'>
-															<td style='padding: 8px;'><b><a href='/src/main/java/com/selfstudyassistant/util/DBConnectionUtil.java'>DBConnectionUtil.java</a></b></td>
-															<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-														</tr>
-													</table>
-												</blockquote>
-											</details>
-										</blockquote>
-									</details>
-								</blockquote>
-							</details>
-						</blockquote>
-					</details>
-				</blockquote>
-			</details>
-		</blockquote>
-	</details>
+	<summary><b><code>sql</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>schema.sql</b></td><td>Creates database, tables & foreign key relationships.</td></tr>
+	</table>
+	</blockquote>
+</details>
+<details>
+	<summary><b><code>src/main/java/com/selfstudyassistant/app</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>DemoApp.java</b></td><td>Runs backend test using DAO insert + fetch operations.</td></tr>
+	</table>
+	</blockquote>
+</details>
+<details>
+	<summary><b><code>src/main/java/com/selfstudyassistant/dao</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>UserDao.java</b></td><td>User database operations.</td></tr>
+	<tr><td><b>SubjectDao.java</b></td><td>Subject database operations.</td></tr>
+	<tr><td><b>FaqDao.java</b></td><td>FAQ database operations.</td></tr>
+	<tr><td><b>QuizQuestionDao.java</b></td><td>Quiz question database operations.</td></tr>
+	</table>
+	</blockquote>
+</details>
+<details>
+	<summary><b><code>src/main/java/com/selfstudyassistant/model</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>User.java</b></td><td>Encapsulates student profile.</td></tr>
+	<tr><td><b>Subject.java</b></td><td>Stores subject metadata.</td></tr>
+	<tr><td><b>Faq.java</b></td><td>Keywords + explanation for concept clarification.</td></tr>
+	<tr><td><b>QuizQuestion.java</b></td><td>MCQ statement, options, correct answer.</td></tr>
+	</table>
+	</blockquote>
+</details>
+<details>
+	<summary><b><code>src/main/java/com/selfstudyassistant/util</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>DBConnectionUtil.java</b></td><td>Returns JDBC connection using `db.properties`.</td></tr>
+	</table>
+	</blockquote>
 </details>
 
----
+---## 🚀 Getting Started
 
-## Getting Started
+### 🔑 Prerequisites
 
-### Prerequisites
+* Java 8 or above
+* MySQL Server installed
+* MySQL Connector/J
 
-This project requires the following dependencies:
+### 📦 Installation
 
-- **Programming Language:** Java
-
-### Installation
-
-Build  from the source and intsall dependencies:
-
-1. **Clone the repository:**
-
-    ```sh
-    ❯ git clone ../
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/Harshvardhan-bajpai/ai-self-study-assistant.git
+    cd ai-self-study-assistant
+    ```
+2.  Create DB + Tables:
+    ```sql
+    SOURCE sql/schema.sql;
+    ```
+3.  Configure DB:
+    Edit the file `src/main/resources/db.properties`
+    
+    Example:
+    ```properties
+    db.driver=com.mysql.cj.jdbc.Driver
+    db.url=jdbc:mysql://localhost:3306/self_study_assistant
+    db.username=root
+    db.password=root
     ```
 
-2. **Navigate to the project directory:**
+### ▶️ Usage (Run Demo)
 
-    ```sh
-    ❯ cd 
-    ```
+Using IDE:
 
-3. **Install the dependencies:**
+1.  Add MySQL JDBC driver to classpath
+2.  Run `DemoApp.java`
 
-echo 'INSERT-INSTALL-COMMAND-HERE'
+Expected output:
 
-### Usage
+* Inserts sample User, Subject, FAQ, QuizQuestion
+* Prints retrieved data from DB
 
-Run the project with:
+This confirms:
 
-echo 'INSERT-RUN-COMMAND-HERE'
+✔ **JDBC works**
 
-### Testing
+✔ **DAOs work**
 
- uses the {__test_framework__} test framework. Run the test suite with:
+✔ **Schema is correct**
 
-echo 'INSERT-TEST-COMMAND-HERE'
+---## 🛣 Roadmap
 
----
+| Status | Feature |
+|--------|---------|
+| 🟢 Complete | Backend: JDBC + DAO + Schema + DemoApp |
+| 🔜 Upcoming | Web UI (login & dashboard) |
+| 🔜 Upcoming | FAQ-based chatbot |
+| 🔜 Upcoming | Quiz scoring & performance history |
+| 🔮 Future | Personalized study recommendations |
 
-## Roadmap
+---## 🛡 License
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+This project is intended for academic learning and backend development practice.
 
----
+---## 🙌 Acknowledgments
 
-## Contributing
+Developed by **Harshvardhan Bajpai**
 
-- **💬 [Join the Discussions](https://LOCAL///discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://LOCAL///issues)**: Submit bugs found or log feature requests for the `` project.
-- **💡 [Submit Pull Requests](https://LOCAL///blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-
-<details closed>
-<summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your LOCAL account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
-   ```sh
-   git clone .
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to LOCAL**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
-</details>
-
-<details closed>
-<summary>Contributor Graph</summary>
-<br>
-<p align="left">
-   <a href="https://LOCAL{///}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=/">
-   </a>
-</p>
-</details>
-
----
-
-## License
-
- is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-## Acknowledgments
-
-- Credit `contributors`, `inspiration`, `references`, etc.
+The project will evolve into a fully intelligent learning assistant with UI + chatbot in upcoming phases.
 
 <div align="right">
-
-[![][back-to-top]](#top)
-
+	<a href="#top">🔼 Back to top</a>
 </div>
-
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-
-
----
