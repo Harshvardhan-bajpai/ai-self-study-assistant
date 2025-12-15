@@ -2,7 +2,22 @@
 
 Built with: <b>Java • MySQL • JDBC</b></div><br>
 
----## 📌 Table of Contents- [Overview](#overview)- [Features](#features)- [Project Structure](#project-structure)  - [Project Index](#project-index)- [Getting Started](#getting-started)  - [Prerequisites](#prerequisites)  - [Installation](#installation)  - [Usage](#usage)- [Roadmap](#roadmap)- [License](#license)- [Acknowledgments](#acknowledgments)
+---
+
+## 📌 Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+  - [Project Index](#project-index)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Roadmap](#roadmap)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 
 ---## 🔍 Overview
 
