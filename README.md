@@ -66,7 +66,8 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
             │       ├── app
             │       ├── dao
             │       ├── model
-            │       └── util
+            │       ├── util
+            |       └── service
             └── resources
 ```
 📁 Project Index (Click to Expand)
@@ -117,6 +118,26 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
 	</table>
 	</blockquote>
 </details>
+<details>
+	<summary><b><code>src/main/java/com/selfstudyassistant/service</code></b></summary>
+	<blockquote>
+	<table>
+	<tr><td><b>FaqMatcherService.java</b></td><td>Keyword-based FAQ matching logic.</td></tr>
+	</table>
+	</blockquote>
+</details>
+
+
+## 🧠 Intelligent Feature (AI Logic)
+
+The system includes a lightweight AI-style feature using **keyword-based FAQ matching**.
+
+- User queries are tokenized
+- Keywords are matched against stored FAQ keywords
+- The best matching FAQ response is returned
+
+This simulates AI behavior without heavy machine learning models and provides a scalable foundation for future chatbot integration.
+
 
 ---## 🚀 Getting Started
 
@@ -160,6 +181,12 @@ Expected output:
 * Inserts sample User, Subject, FAQ, QuizQuestion
 * Prints retrieved data from DB
 
+This demo demonstrates:
+✔ Module integration  
+✔ Validation before database access  
+✔ Intelligent FAQ matching logic  
+✔ Robust backend execution
+
 This confirms:
 
 ✔ **JDBC works**
@@ -172,11 +199,11 @@ This confirms:
 
 | Status | Feature |
 |--------|---------|
-| 🟢 Complete | Backend: JDBC + DAO + Schema + DemoApp |
+| 🟢 Complete | Robust backend (JDBC + DAO + validation + error handling) |
+| 🟢 Complete | Intelligent FAQ keyword-matching (AI-style logic) |
 | 🔜 Upcoming | Web UI (login & dashboard) |
-| 🔜 Upcoming | FAQ-based chatbot |
-| 🔜 Upcoming | Quiz scoring & performance history |
-| 🔮 Future | Personalized study recommendations |
+| 🔜 Upcoming | Quiz scoring & performance analytics |
+| 🔮 Future | Full chatbot & personalized study recommendations |
 
 ---## 🛡 License
 
