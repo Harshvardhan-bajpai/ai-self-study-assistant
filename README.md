@@ -21,7 +21,12 @@ Built with: <b>Java • MySQL • JDBC</b></div><br>
 
 ---## 🔍 Overview
 
-The **AI-Powered Self-Study Assistant** is a Java backend application that helps students structure and improve their learning by storing:- Student profiles- Subjects they are studying- Concept explanations in FAQ format- Quiz questions for self-practice
+The **AI-Powered Self-Study Assistant** is a Java backend application that helps students structure and improve their learning by storing:
+
+- Student profiles
+- Subjects they are studying
+- Concept explanations in FAQ format
+- Quiz questions for self-practice
 
 A console runner (`DemoApp`) tests the entire backend using JDBC, ensuring correct insert & fetch operations through Data Access Objects (DAO).
 
@@ -38,6 +43,15 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
 | JDBC Layer | Connects with MySQL using `db.properties` |
 | DAO Layer | Insert + fetch functionality for all modules |
 | DemoApp | Executes a complete backend end-to-end test |
+
+## 🛡 Error Handling & Data Validation
+
+- All inputs are validated before database operations
+- Email, difficulty level, and empty fields are checked
+- Invalid data throws meaningful exceptions
+- Database failures are handled gracefully
+- The application does not crash on runtime errors
+
 
 ## 🧱 Project Structure
 
