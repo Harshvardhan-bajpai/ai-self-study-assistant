@@ -67,7 +67,7 @@ This is the **backend foundation**. A web interface and chatbot recommendation s
             │       ├── dao
             │       ├── model
             │       ├── util
-            |       └── service
+            │       └── service
             └── resources
 ```
 📁 Project Index (Click to Expand)
